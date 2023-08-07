@@ -1,0 +1,103 @@
+# INTRO TO GRAPH
+
+non-linear data structure
+(v,e) vertex, edge
+- terminology
+- representation
+- traversal
+- graph algorithm
+
+# TERMINOLOGIES
+
+** Direction
+- directed graph
+- undirected graph
+
+** Edge(weight)
+- unweighted
+- weight
+
+** special graph (tree)
+- 1st: only 01 connected component
+- 2nd: no cycle / number of edges = number vertex/nodes - 1
+
+
+#  GRAPH REPRESENTAION 
+ (n) matrix size
+ (m) input case
+
+ 1. Adjacency Matrix
+ 2. Adjacency List
+ 3. List of Edges
+
+
+# ADJACENCY Matrix
+- directed
+4  (n)
+5  (m)
+1 3
+2 3 
+3 4
+1 2
+4 2
+
+0 1 1 0
+0 0 1 0
+0 0 0 1
+0 1 0 0
+
+
+- undirected
+4 (n)
+5 (m)
+1 3
+2 3 
+3 4
+1 2
+4 2
+
+0 1 1 0
+1 0 1 1
+1 1 0 1
+0 1 1 0
+
+note: if a graph have weight then instead of 1 we should put the weight
+
+
+# ADJACENCY List
+- directed
+4  (n)
+5  (m)
+1 3
+2 3 
+3 4
+1 2
+4 2
+
+1: 3, 2
+2: 3, 4
+3: 4
+4: 
+
+- undirected
+4  (n)
+5  (m)
+1 3
+2 3 
+3 4
+1 2
+4 2
+
+1: 3, 2
+2: 3, 1, 4
+3: 1, 2, 4
+4: 3, 2
+
+# ADJACENCY List
+- (n*n)
+- dense
+
+# ADJACENCY matrix
+- tree
+- (m = n-1)
+- sparse
