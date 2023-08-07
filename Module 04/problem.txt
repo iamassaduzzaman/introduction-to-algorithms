@@ -1,0 +1,68 @@
+Question 01: Write a C++ program that takes N integer numbers and sorts them in non-increasing order using Merge Sort. 
+
+Note: You can’t use any built-in function for sorting.
+
+
+Question 02: Write a C++ program that takes N integer numbers that are sorted and distinct. 
+The next line will contain an integer k. You need to tell whether K exists in that array or not. 
+If it exists, print its index otherwise print “Not Found”. 	
+
+Note: You must solve this in O(logn) complexity.
+
+
+Question 03: You are given an array of N positive integers. The next line will contain an integer K. 
+You need to tell whether there exists more than one occurrence of K in that array or not. 
+If there exists more than one occurrence of K print YES, Otherwise print NO.
+
+See the sample input-output for more clarification.
+
+Note: The given array will be sorted in increasing order. And it is guaranteed that at least one occurrence of K will exist.	 You must solve this in O(logn) complexity.
+
+
+Question 04: Calculate the time complexity of the following code snippets.		
+
+(a)
+
+int count = 0;
+for (int i = n; i > 0; i /= 2) 
+{
+    for (int j = 0; j < n; j+=5) 
+   {
+        count += 1;
+    }
+}
+
+(b)
+
+for(int i =1; i*i<n; i++)
+{
+     cout << “hello”;
+}
+
+(c)
+
+for(int i =1; i<n; i=i*2)
+{
+   for(int j=1; j*j<n; j+=2)
+  {
+      cout << “hello”;
+   }
+}
+
+(d)
+int m = 1;
+for(int i=0; m<=n; i++)
+{
+    m+=i;
+}
+
+
+
+Question 05: You are given two sorted arrays arr1 and arr2 in descending order. 
+Your task is to merge these two arrays into a new array result using the merge sort technique, 
+but Instead of merging the arrays in ascending order, you need to merge them in descending order to 
+create the result array.
+	 
+Note: You cannot use stl sort function here
+
+
