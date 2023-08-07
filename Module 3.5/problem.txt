@@ -1,0 +1,9 @@
+1. https://leetcode.com/problems/sort-an-array/
+
+2. https://www.codingninjas.com/studio/problems/find-duplicate-in-array_1112602?leftPanelTab=0
+
+3. https://leetcode.com/problems/merge-sorted-array/
+
+4. https://www.codingninjas.com/studio/problems/merge-sort_920442?leftPanelTab=0
+
+5. https://www.codingninjas.com/studio/problems/second-largest-element-in-the-array_873375?leftPanelTab=0
