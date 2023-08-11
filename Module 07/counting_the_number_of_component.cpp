@@ -39,7 +39,6 @@ int main()
             dfs(i);
         }
     }
-
     cout << "total component: " << componentCount << endl;
     return 0;
 }

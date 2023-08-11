@@ -45,9 +45,7 @@ int main()
     }
     
     cout << endl;
-
     bfsTraversal(1);
-
     cout << endl;
 
     for(int i = 1; i <= n; i++)
