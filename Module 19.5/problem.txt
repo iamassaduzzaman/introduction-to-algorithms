@@ -1,0 +1,9 @@
+https://www.eolymp.com/en/problems/3835
+
+https://www.spoj.com/problems/MST/
+
+https://codeforces.com/contest/25/problem/D
+
+https://codeforces.com/contest/25/problem/B
+
+https://practice.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1?utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article
